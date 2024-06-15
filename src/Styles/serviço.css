@@ -1,0 +1,125 @@
+.serviço {
+
+background-color: var(--color-primary-3);
+color: var(--color-primary-2);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 20px 14px;
+
+}
+.serviço-conteudo h2 {
+
+text-transform: uppercase;
+text-align: center;
+font-size: 38px;
+margin-top: 14px;
+
+}
+.serviço-conteudo p {
+    
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 150%;
+margin: 30px;
+text-align: center;
+max-width: 780px;
+
+}
+
+.div-info  {
+width: 100%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: flex;
+justify-content: center;
+padding: 29px;
+z-index: 99;
+
+}
+.div-info strong {
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.div-produtos  {
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 18px;
+   padding: 0 44px 34px 44px;
+         
+    }
+.div-haircut  {
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary-1);
+  border-radius: 8px;
+  box-shadow: 0px -1px 17px -4px rgb(13, 13, 13);
+  overflow: hidden;
+  
+  
+    }
+    
+    .div-haircut img {
+        width: 100%;
+        max-width: 310px;
+        transition: transform 0.8s;  
+    }
+
+    .div-haircut img:hover {
+    
+        transform: scale(1.1);
+        z-index: 1;
+        }
+
+    @media  screen and (max-width: 1199px) {
+  
+        .div-produtos
+         {
+       
+           flex-direction: column;
+          
+         }
+
+         .serviço-conteudo h2 {
+    
+          text-align: center;
+          font-size: 30px;
+         
+          }
+
+         .serviço-conteudo p {
+
+       
+          text-align: center;
+          font-size: 15px;
+         
+          
+          }
+     
+         .div-haircut img {
+     
+             max-width: 400px;
+          
+          } 
+
+          .div-haircut img {
+
+            transition: transform 0.8s;  
+        }
+    
+        .div-haircut img:hover {
+        
+            transform: scale(1.3);
+            z-index: 1;
+            }
+
+         }

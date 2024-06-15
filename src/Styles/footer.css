@@ -1,0 +1,120 @@
+.footer{
+
+color: var(--color-primary-2);
+letter-spacing: 1px;
+
+}
+
+.div-footer-conteudo {
+
+display: grid;
+grid-template-columns: repeat(4,1fr);
+background-color: var(--color-primary-5);
+padding: 3rem 3.5rem;
+
+}
+
+.footer-list{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 0.75rem;
+    list-style: none;
+    padding: 0;
+    
+    }
+
+.footer-list strong {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 0.75rem;
+    
+}
+
+.footer-list p{
+
+font-family: Verdana, Geneva, Tahoma, 
+sans-serif;
+color: var(--color-primary-6);
+
+}
+
+.footer-list i{
+
+color: var(--color-primary-6);
+
+}
+
+.footer-Copy{
+
+font-family: Verdana, Geneva, Tahoma, 
+sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: var(--color-primary-5);
+font-size: 0.9rem;
+padding: 1.5rem;
+font-weight: 100;
+
+}
+
+.btn-whatsapp img{
+
+position: fixed;
+right: 24px;
+bottom: 14px;
+max-width: 74px;
+transition: transform 0.4s;
+}
+
+.btn-whatsapp img:hover {
+
+transform: scale(1.1);
+
+}
+
+@media  screen and (max-width: 1199px) {
+  
+    .div-footer-conteudo {
+      
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background-color: var(--color-primary-5);
+        padding: 3rem 3.5rem;
+          
+        }
+    .footer {
+      
+        flex-direction: column;
+        gap: 14px;
+          
+        }
+
+        .footer-list i {
+        
+            font-size: 1rem;
+            flex-direction: column;
+             }
+
+        .btn-whatsapp img{
+
+            max-width: 64px;
+            
+            }
+
+            .footer-Copy{
+
+              text-align: center;
+                
+                }
+     }
+
+
+
+
+

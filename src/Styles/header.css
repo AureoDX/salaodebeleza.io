@@ -1,0 +1,53 @@
+header{
+
+width: 100%;
+padding: 20px;
+
+}
+
+.nav-conteudo{
+ 
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 30px;
+
+}
+
+.div-icon i {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 40px;
+  color: var(--color-primary-2);
+  transition: color .3s ease;
+  cursor: pointer;
+}
+
+.div-icon i:hover {
+
+color: var(--color-primary-1);
+
+}
+
+@media  screen and (max-width: 1199px) {
+  
+   .nav-conteudo
+    {
+  
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+     .btn-agendar
+    {
+  
+      display: none;
+      
+    }
+
+    }

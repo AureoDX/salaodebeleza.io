@@ -1,0 +1,124 @@
+
+/*.div-fundo{
+
+    position: relative;
+   
+    }*/
+ 
+    .div-fundo{
+    
+   /* content: "";
+    display: block;*/
+    position: absolute;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.312), rgb(13, 13, 13)), url('../../img/banner-header.jpg');
+    top: 0;
+    width: 100%;
+    height: 110%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    opacity: .9;
+    
+    }
+
+    .hero-conteudo {
+
+    color: white;
+    min-width: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    
+    }
+
+    .div-titulo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    padding: 10px 0;
+
+    }
+
+    .div-titulo h1{
+
+    color: var(--color-primary-2);
+    font-size: 50px;
+    text-align: center;
+  
+    }
+
+    .div-titulo p{
+
+    color: var(--color-primary-2);
+    font-size: 30px;
+    margin: 20px 0;
+    padding: 30px 0;
+  
+    }
+
+    .div-btn{
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px 0;
+    
+      cursor: pointer;
+
+    }
+
+    .btn-agendar-horario{
+
+      border: none;
+      padding: 8px 10px;
+      border-radius: 4px;
+      font-size: 20px;
+      color: white;
+      background-color: var(--color-primary-1);
+      transition: background-color 0.8s;
+  
+       }
+    
+
+       @media  screen and (max-width: 1199px) {
+     
+        .div-fundo {
+            
+        height: 50%;
+          
+             
+          }
+
+        .div-titulo {
+            
+        margin: 17px 0;
+          
+             
+          }
+
+        .div-titulo  h1{
+            
+        font-size: 23px;
+                
+          }
+
+        .div-titulo  p{
+            
+        font-size: 13px;
+                
+          }
+          
+          .btn-agendar-horario{
+
+           
+            font-size: 10px;
+      
+          }
+     
+         }

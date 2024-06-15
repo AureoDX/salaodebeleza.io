@@ -1,0 +1,82 @@
+.sobre{
+
+background-color: var(--color-primary-5);
+overflow: hidden;
+color: var(--color-primary-2);
+margin-top: 50px;
+
+}
+.sobre-conteudo{
+
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 14px;
+padding: 34px 14px 64px 14px;
+
+}
+
+.sobre-conteudo div {
+
+flex: 1;
+
+}
+
+.sobre-desc h2 {
+
+
+font-size: 38px;
+margin-bottom: 24px;
+
+}
+
+ .sobre-desc p {
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 150%;
+margin-bottom: 14px;
+
+}
+ .sobre-desc strong {
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.sobre-conteudo img{
+
+max-width: 500px;
+
+}
+
+@media  screen and (max-width: 1199px) {    
+       
+    .sobre-conteudo {
+        
+     flex-direction: column;
+     }
+
+     .sobre-desc h2 {
+
+        font-size: 30px;
+        text-align: center;
+        
+        }
+
+     .sobre-desc p {
+
+        font-size: 15px;
+        text-align: center;
+        
+        }
+
+     .sobre-conteudo img {
+
+        max-width: 250px;
+        
+        }
+
+    }
